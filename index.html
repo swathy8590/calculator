@@ -9,38 +9,46 @@
     <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="container mainbox col-xxl-6 col-xl-6 ">
+<div class="container-fluid mainbox col-12 col-sm-12 col-md-10 col-lg-6 col-xxl-6 col-xl-6 ">
     <div class="row ">
 
-        <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 typebox px-5">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 typebox px-5">
             <input type="text" class="inputbox mt-3 p-2 "/>
         </div>
-        <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 buttonmain">
-            <div class="row  py-4 justify-content-center ">
-                <button type="button" onclick="CFn()" class="btn col-xl-2 col-xxl-2 ms-2 me-4 buttons red">C</button>
-                <button type="button" onclick="CeFn()" class="btn col-xl-2 col-xxl-2 me-4 buttons red">CE</button>
-                <button type="button" onclick="prcgeFn"class="btn col-xl-2 col-xxl-2 me-4 buttons">%</button>
-                <button type="button" onclick="btnfn('.')" class="btn col-xl-2 col-xxl-2 me-4 buttons">.</button>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 buttonmain">
+            <div class="row  py-4">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center" >
+                
+                <button type="button" onclick="CFn()" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 ms-2 me-4 buttons red">C</button>
+                <button type="button" onclick="CeFn()" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 me-4 buttons red">CE</button>
+                <button type="button" onclick="prcgeFn"class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 me-4 buttons">%</button>
+                <button type="button" onclick="btnfn('.')" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 me-4 buttons">.</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center" >
 
-                <button type="button" onclick="btnfn(7)" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons">7</button>
-                <button type="button" onclick="btnfn(8)" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons">8</button>
-                <button type="button" onclick="btnfn(9)" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons">9</button>
-                <button type="button" onclick="btnfn('+')" class="btn col-xl-2 col-xxl-2 mt-4 me-3 buttons black">+</button>
-
-                <button type="button" onclick="btnfn(4)" class="btn col-xl-2 col-xxl-2 mt-4 ms-2 me-4 buttons">4</button>
-                <button type="button" onclick="btnfn(5)" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons">5</button>
-                <button type="button" onclick="btnfn(6)" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons">6</button>
-                <button type="button" onclick="btnfn('-')" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons black">-</button>
-
-                <button type="button" onclick="btnfn(1)" class="btn col-xl-2 col-xxl-2 mt-4 ms-2 me-4 buttons">1</button>
-                <button type="button" onclick="btnfn(2)" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons">2</button>
-                <button type="button" onclick="btnfn(3)" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons">3</button>
-                <button type="button" onclick="btnfn('*')" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons black">*</button>
-
-                <button type="button" onclick="btnfn('00')" class="btn col-xl-2 col-xxl-2 mt-4 ms-2 me-4 buttons">00</button>
-                <button type="button" onclick="btnfn(0)" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons">0</button>
-                <button type="button" onclick="result()" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons black">=</button>
-                <button type="button" onclick="btnfn('/')" class="btn col-xl-2 col-xxl-2 mt-4 me-4 buttons black">/</button>
+                <button type="button" onclick="btnfn(7)" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons">7</button>
+                <button type="button" onclick="btnfn(8)" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons">8</button>
+                <button type="button" onclick="btnfn(9)" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons">9</button>
+                <button type="button" onclick="btnfn('+')" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-3 buttons black">+</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center" >
+                <button type="button" onclick="btnfn(4)" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 ms-2 me-4 buttons">4</button>
+                <button type="button" onclick="btnfn(5)" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons">5</button>
+                <button type="button" onclick="btnfn(6)" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons">6</button>
+                <button type="button" onclick="btnfn('-')" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons black">-</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center" >
+                <button type="button" onclick="btnfn(1)" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 ms-2 me-4 buttons">1</button>
+                <button type="button" onclick="btnfn(2)" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons">2</button>
+                <button type="button" onclick="btnfn(3)" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 me-4 mt-4 buttons">3</button>
+                <button type="button" onclick="btnfn('*')" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons black">*</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center" >
+                <button type="button" onclick="btnfn('00')" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 ms-2 me-4 buttons">00</button>
+                <button type="button" onclick="btnfn(0)" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons">0</button>
+                <button type="button" onclick="result()" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons black">=</button>
+                <button type="button" onclick="btnfn('/')" class="btn col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mt-4 me-4 buttons black">/</button>
+            </div>
             </div>
         </div>
     </div>

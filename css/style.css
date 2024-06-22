@@ -42,3 +42,11 @@ body{
     color: #ffffff;
     background-color: #ab4b4b;
 }
+
+@media screen and (max-width:500px) {
+
+    body{
+        padding: 20px;
+    }
+    
+}
